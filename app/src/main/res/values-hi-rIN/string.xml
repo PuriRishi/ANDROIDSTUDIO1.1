@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ANDROIDSTUDIO1.1</string>
+    <string name="Hello_message">हैलो वर्ल्ड!</string>
+    <string name="ButtonText">मैं एक बटन हूँ</string>
+</resources>
