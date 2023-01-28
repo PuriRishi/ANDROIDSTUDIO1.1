@@ -2,5 +2,10 @@
 <resources>
     <string name="app_name">ANDROIDSTUDIO1.1</string>
     <string name="Hello_message">हैलो वर्ल्ड!</string>
-    <string name="ButtonText">मैं एक बटन हूँ</string>
+    <string name="ButtonText">मुझे क्लिक करें</string>
+    <string name="toast_message">यहाँ है  अधिक जानकारी</string>
+    <string name="Switch">स्विच ऑन/ऑफ करें</string>
+    <string name="checkbox">इसकी जांच करें</string>
+    <string name="edittext">अपना नाम दर्ज करें</string>
+    <string name="labNo.">प्रयोगशाला 2 GUI</string>
 </resources>

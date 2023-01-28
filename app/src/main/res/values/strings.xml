@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">ANDROIDSTUDIO1.1</string>
     <string name="Hello_message">Hello world!</string>
-    <string name="ButtonText">I\’m a button</string>
+    <string name="ButtonText">Click me</string>
+    <string name="toast_message">Here is more information</string>
+    <string name="Switch">Switch on/off</string>
+    <string name="checkbox">check this out</string>
+    <string name="edittext">enter your name</string>
+    <string name="labNo.">LAB 2 GUI</string>
 </resources>

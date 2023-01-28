@@ -7,20 +7,68 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Hello_message"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0.3in"
-        android:text="@string/ButtonText" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labNo."
+            android:textAlignment="center"
+            android:textSize="34sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="211dp"
+            android:layout_height="38dp"
+            android:text="@string/ButtonText"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="201dp"
+            android:layout_height="43dp"
+            android:text="@string/checkbox"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="208dp"
+            android:layout_height="111dp"
+            android:src="@drawable/flag"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="107dp"
+            />
+
+        <Switch
+            android:id="@+id/Switch"
+            android:layout_width="192dp"
+            android:layout_height="21dp"
+            android:text="@string/Switch"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edittext"
+        android:inputType="textPersonName"
+        />
 
 </LinearLayout>
