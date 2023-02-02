@@ -4,7 +4,7 @@ package com.cst2335.purir;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-i
+
 import android.os.Bundle;
 
 import android.widget.Button;
