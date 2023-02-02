@@ -69,6 +69,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/edittext"
         android:inputType="textPersonName"
+        android:textAlignment="center"
         />
 
 </LinearLayout>
